@@ -1,0 +1,30 @@
+/* Centering the Headings */
+h1, h2 {
+    text-align: center;
+}
+
+/* Centering the Input Box */
+#inputtxt {
+    display: block;    /* This makes it take its own line */
+    width: 50%;        /* Keeps it from being too wide */
+    margin: 20px auto; /* 20px space top/bottom, 'auto' centers it horizontally */
+    padding: 10px;     /* Makes the box look professional, not flat */
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Centering the Button */
+#addButton {
+    display: block;    /* Puts it on a new line below the input */
+    margin: 0 auto;    /* Centers it horizontally */
+    width: 150px;      /* Fixed width looks better for buttons */
+    padding: 10px;
+    background-color: azure;
+    color: rgba(254, 163, 5, 0.893);
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid orange;
+    border-radius: 6px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Authentication</title>
+        <link rel="stylesheet" href="loginauthentication.css">
+    </head>
+
+    <body>
+        <main>
+            <section id="login-card">
+                <div>
+                    <h4>Username</h4>
+                    <br>
+                    <input type="text" id="logUser" placeholder="Username">
+                    <br>
+                    <h4>Password</h4>
+                    <br>
+                    <input type="password" id="logPass" placeholder="Password">
+                    <br><br>
+
+                    <div id="button-group">
+                                            <button type="button" onclick="login()">Login</button>
+                        <button type="submit" onclick="register()">Register</button>
+                
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="securedPage" and style="display:none;">
+                <h1>Welcome to the Secured Page</h1>
+                <p>You have Successfully Authenticated!</p>
+                <button onclick="location.reload">Logout</button>
+            </section>
+        </main>
+    </body>
+    <script src="script.js"></script>
+</html>
